@@ -1,0 +1,2 @@
+LOAD DATA LOCAL INFILE "C:/Users/DELL/Documents/PROJETO/IntuitiveCare/IntuitiveCare/banco_dados_ans/arquivos/operadoras/Relatorio_cadop.csv" 
+INTO TABLE operadoras FIELDS TERMINATED by ';' LINES TERMINATED BY '/n' IGNORE 1 ROWS;
